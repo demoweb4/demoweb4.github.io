@@ -21,14 +21,15 @@
 }
  .one-slide {
 	 border: none;
-	 margin-left: 2rem;
+	 margin-left: 1rem;
+	 margin-right: 1rem;
 	 padding: 0;
 	 margin-right: 0.5;
 	 height: 300px;
 	 width: 100%;
 }
  .one-slide img {
-	 width: 85%;
+	 width: 100%;
 }
  .carousel-controls .control {
 	 position: absolute;
@@ -56,10 +57,10 @@
  @media (max-width: 575px) {
 	 .testimonial-carousel .one-slide {
 		 padding: 0;
-		 height: 300px;
+		 height: 308px;
 	}
 	 .testimonial-carousel img {
 		 padding: 0;
-		 width: 85%;
+		 width: 100%;
 	}
 }
